@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <!-- MySQL DB running on localhost -->
+        <property name="connection.url">jdbc:mysql://localhost:3306/cs544</property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">root</property>
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+
+        <!-- Use the Hibernate built-in pool for tests. -->
+        <property name="connection.pool_size">1</property>
+
+        <!-- Show all SQL DML executed by Hibernate -->
+        <property name="show_sql">true</property>
+        <property name="use_sql_comments">true</property>
+        <property name="hibernate.format_sql">false</property>
+        <!-- Always drop and recreate the database schema on startup -->
+        <property name="hbm2ddl.auto">create</property>
+
+<!--                        inheritance a-->
+        <mapping class="edu.mum.assignment4.inheritance.a.Customer"/>
+        <mapping class="edu.mum.assignment4.inheritance.a.OrderLine"/>
+        <mapping class="edu.mum.assignment4.inheritance.a.Order"/>
+        <mapping class="edu.mum.assignment4.inheritance.a.Product"/>
+
+        <!--        inheritance b-->
+        <mapping class="edu.mum.assignment4.inheritance.b.Customer1"/>
+        <mapping class="edu.mum.assignment4.inheritance.b.OrderLine1"/>
+        <mapping class="edu.mum.assignment4.inheritance.b.Order1"/>
+        <mapping class="edu.mum.assignment4.inheritance.b.Product1"/>
+        <mapping class="edu.mum.assignment4.inheritance.b.DVD"/>
+        <mapping class="edu.mum.assignment4.inheritance.b.CD"/>
+        <mapping class="edu.mum.assignment4.inheritance.b.Book"/>
+
+        <!--        collection a -->
+        <mapping class="edu.mum.assignment4.collection.a.Laptop"/>
+        <mapping class="edu.mum.assignment4.collection.a.Employee"/>
+
+        <!--        collection b -->
+
+        <mapping class="edu.mum.assignment4.collection.b.Flight"/>
+        <mapping class="edu.mum.assignment4.collection.b.Passenger"/>
+
+        <!--        collection c -->
+
+        <mapping class="edu.mum.assignment4.collection.c.Student"/>
+        <mapping class="edu.mum.assignment4.collection.c.School"/>
+
+    </session-factory>
+</hibernate-configuration>

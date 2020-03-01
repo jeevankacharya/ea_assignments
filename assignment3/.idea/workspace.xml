@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="89f21aec-dbea-4009-837b-ae3a534aea03" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YMGJMMouSWZygZ8MixjZDmaKc5" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\devil\Desktop\EA_LABS\assignment3\src\main\resources" />
+      <recent name="C:\Users\devil\Desktop\EA_LABS\assignment3\src\main\java\com\mum\assignment3\first" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MainDEO">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mum.assignment3.exercise3_02.b_one_many.Main" />
+      <module name="assignment3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mum.assignment3.exercise3_02.b_one_many.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainBCR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mum.assignment3.exercise3_02.u_many_one.MainBCR" />
+      <module name="assignment3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mum.assignment3.exercise3_02.u_many_one.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainCR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mum.assignment3.exercise3_02.u_one_many.MainCR" />
+      <module name="assignment3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mum.assignment3.exercise3_02.u_one_many.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainCS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mum.assignment3.exercise3_02.b_many_many.MainCS" />
+      <module name="assignment3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mum.assignment3.exercise3_02.b_many_many.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainDEO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mum.assignment3.exercise3_02.b_many_one.MainDEO" />
+      <module name="assignment3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mum.assignment3.exercise3_02.b_many_one.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainDEO" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainBCR" />
+        <item itemvalue="Application.MainCR" />
+        <item itemvalue="Application.MainCS" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89f21aec-dbea-4009-837b-ae3a534aea03" name="Default Changelist" comment="" />
+      <created>1582744976883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582744976883</updated>
+      <workItem from="1582744980051" duration="16373000" />
+      <workItem from="1582774689003" duration="1742000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
